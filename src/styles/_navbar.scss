@@ -32,7 +32,24 @@
                     color: inherit;
                     display: block;
                     padding: .6rem 0;
+                    &::before{
+                        content: "";
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        width: .4rem;
+                        height: 100%;
+                        background-color: #0381ff33;
+                        transform-origin: bottom;
+                        transform: scale(0);
+                        transition: transform .4s .2s, width .2s cubic-bezier(.86,-0.19,.14,1.16);
+                        border-radius: 10px;
+                    }
+                    &:hover::before{
+                        width: 100%;
+                        transform: scale(1);
 
+                    }
                 }
             }
         }

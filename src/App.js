@@ -6,10 +6,12 @@ function App() {
   return (
     <div className="App">
       <div className="sidebar">
-        <Navbar></Navbar>
+        <Navbar/>
       </div>
       <div className="main-content">
-        <HomePage></HomePage>
+        <div className="content">
+          <HomePage/>
+        </div>
       </div>
     </div>
   );
