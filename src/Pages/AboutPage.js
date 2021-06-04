@@ -9,7 +9,7 @@ const AboutPage = () => {
             <Title title={"About Me"} span={"About ME"} />
             <ImageSection/>
             <Title title={"My Skills"} span={"My Skills"} />
-            <div className="skills-container">
+            <div className="skillsContainer">
                 <SkillsSection skill={'ReactJS'} progress={'70%'} width={'70%'}/>
                 <SkillsSection skill={'JS'} progress={'75%'} width={'75%'}/>
                 <SkillsSection skill={'HTML'} progress={'80%'} width={'80%'}/>
