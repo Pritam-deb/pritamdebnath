@@ -3,6 +3,7 @@
 @import './styles/typography';
 @import './styles/title';
 @import './styles//about';
+@import './styles/skill';
 
 * {
     padding: 0px;
@@ -19,3 +20,23 @@ body{
 span{
     color: #037FFF;
 }
+
+
+// @media screen and (max-width: 411px){
+//     html{
+//         font-size: 70%;
+//     }
+// }
+// @media screen and (max-width: 700px){
+//     html{
+//         font-size: 90%;
+//     }
+// }
+// @media screen and (max-width: 480px){
+//     h2{
+//         font-size: 70%;
+//     }
+//     h3{
+//         font-size: 70%;
+//     }
+// }
