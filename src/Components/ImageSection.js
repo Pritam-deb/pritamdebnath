@@ -28,7 +28,7 @@ const ImageSection = () => {
                         
                     </div>
                 </div>
-                <button className="btn"> <a href="https://drive.google.com/file/d/1l2MgIltOFi3D0UVD4geGnJ6o85M3FZfJ/view?usp=drivesdk"> Download Resume</a></button>
+                <button className="btn" href="https://drive.google.com/file/d/1l2MgIltOFi3D0UVD4geGnJ6o85M3FZfJ/view?usp=drivesdk"> Download Resume</button>
             </div>
         </div>
     )
