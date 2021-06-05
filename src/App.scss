@@ -11,6 +11,18 @@
     box-sizing: border-box;
 }
 
+body::-webkit-scrollbar{
+    width: 8px;
+}
+body::-webkit-scrollbar-thumb{
+    background-color: #2b71b8b9;
+    border-radius: 50px;
+}
+body::-webkit-scrollbar-track{
+    background-color: #23325e;
+}
+
+
 body{
     color: #a4acc4;
     font-family: 'Raleway', sans-serif;

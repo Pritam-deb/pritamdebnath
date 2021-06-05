@@ -1,6 +1,7 @@
 import React from 'react';
 import {faLinkedin} from '@fortawesome/free-brands-svg-icons';
 import {faGithub} from '@fortawesome/free-brands-svg-icons';
+// import InstagramIcon from '@material-ui/icons/Instagram';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import { Link } from 'react-router-dom';
 
@@ -22,6 +23,9 @@ const HomePage = () => {
                     <Link className="icon-holder">
                         <FontAwesomeIcon icon={faGithub} className="icon gh" />
                     </Link>
+                    {/* <Link icon={<InstagramIcon/> } className="icon li">
+                        <InstagramIcon className="icon li"/> 
+                    </Link> */}
                 </div>
             </div>
         </div>
