@@ -28,7 +28,10 @@ const ImageSection = () => {
                         
                     </div>
                 </div>
-                <button className="btn" href="https://drive.google.com/file/d/1l2MgIltOFi3D0UVD4geGnJ6o85M3FZfJ/view?usp=drivesdk"> Download Resume</button>
+                <form method="get" action="https://drive.google.com/file/d/1l2MgIltOFi3D0UVD4geGnJ6o85M3FZfJ/view?usp=drivesdk">
+                    <button className="btn" type="submit"> Download Resume</button>
+                </form>
+                
             </div>
         </div>
     )
